@@ -7,7 +7,7 @@
     "start": "node src/bot.js",
     "stop": "pm2 stop LAKIYA-MD",
     "restart": "pm2 restart LAKIYA-MD"
-  },
+  }
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
     "@adiwajshing/keyed-db": "^0.2.4",
