@@ -4,7 +4,7 @@
   "description": "A WhatsApp bot created usin Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start LAKIYA.js --deep-monitoring --attach --name LAKIYA-MD",
+    "start": "node src/bot.js"
     "stop": "pm2 stop LAKIYA-MD",
     "restart": "pm2 restart LAKIYA-MD"
   },
